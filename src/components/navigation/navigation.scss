@@ -1,3 +1,38 @@
 navigation {
 
+  div {
+    border-bottom: 1px solid #eee;
+    padding: $large-spacing 0;
+    text-align: center;
+  }
+
+  h1 {
+    color: $dark-gray;
+    cursor: pointer;
+    display: inline-block;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  h1:hover {
+    color: $primary-color;
+    transition: color 0.25s;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    max-width: 300px;
+    margin: $small-spacing auto;
+
+    span {
+      color: $dark-gray !important;
+    }
+
+    .active {
+      color: $primary-color !important;
+    }
+  }
 }

@@ -1,3 +1,8 @@
+<div id="b" class=test>
+  <h1>Venus Warriors</h1>
+</div>
 <nav>
-
+  <span class="link-span" (click)="openPage('HomePage')" [class.active]="activePage=='Home'">Home</span>
+  <span class="link-span" (click)="openPage('AboutPage')" [class.active]="activePage=='About'">About</span>
+  <span class="link-span" (click)="openPage('BlogPage')" [class.active]="activePage=='Blog'">Blog</span>
 </nav>

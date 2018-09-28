@@ -1,3 +1,14 @@
 page-footer {
+  footer {
+    background-color: $dark-gray;
+    text-align: center;
+    margin-top: $xlarge-spacing;
+    padding: $large-spacing;
 
+    span {
+      color: $tertiary-color;
+      display: inline-block;
+      font-size: smaller;
+    }
+  }
 }
