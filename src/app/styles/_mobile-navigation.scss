@@ -1,0 +1,41 @@
+.menu-icon, .toolbar-content i {
+  color: $primary-color;
+}
+
+.menu-button-span {
+  color: $dark-gray;
+}
+
+.space-right {
+  padding-right: 10px;
+}
+
+i.fixed-width {
+  width: 25px;
+}
+
+.side-menu-button {
+  border-bottom: 1px solid #ccc;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+
+  .item-inner {
+    border: none !important;
+  }
+}
+
+.menu-inner .scroll-content {
+  background-image: url('../assets/imgs/menu-bg.jpg');
+  background-repeat: repeat;
+}
+
+.toolbar-background, .toolbar-background-md {
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+}
