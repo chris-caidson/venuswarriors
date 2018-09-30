@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { CookiePolicyPage } from './cookie-policy';
+import { DisclaimerPage } from './disclaimer';
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
   declarations: [
-    CookiePolicyPage,
+    DisclaimerPage,
   ],
   imports: [
     ComponentsModule,
-    IonicPageModule.forChild(CookiePolicyPage),
+    IonicPageModule.forChild(DisclaimerPage),
   ],
 })
-export class CookiePolicyPageModule {}
+export class DisclaimerPageModule {}

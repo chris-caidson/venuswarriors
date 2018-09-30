@@ -3,10 +3,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-cookie-policy',
-  templateUrl: 'cookie-policy.html',
+  selector: 'page-disclaimer',
+  templateUrl: 'disclaimer.html',
 })
-export class CookiePolicyPage {
+export class DisclaimerPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
